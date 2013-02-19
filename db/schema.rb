@@ -19,9 +19,9 @@ ActiveRecord::Schema.define(:version => 20130219081647) do
     t.float    "total_cost"
     t.datetime "created_at",    :null => false
     t.datetime "updated_at",    :null => false
-    t.string   "customer_name"
-    t.integer  "customer_id"
-    t.integer  "item_id"
+#    t.string   "customer_name"
+#    t.integer  "customer_id"
+#    t.integer  "item_id"
   end
 
   create_table "customers", :force => true do |t|
